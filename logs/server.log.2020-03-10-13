@@ -1,0 +1,831 @@
+[2020-03-10 13:18:24,671] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,672] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,673] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,673] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,674] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:18:24,674] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:18:24,674] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:18:24,674] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:18:24,675] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:18:24,685] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,685] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,685] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,685] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:24,685] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:18:24,687] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:18:24,693] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,693] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,694] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,695] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,695] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,695] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:24,702] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:18:24,705] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:18:24,709] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:18:24,719] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:18:24,727] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.io.IOException: No snapshot found, but there are log entries. Something is broken!
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.restore(FileTxnSnapLog.java:222)
+	at org.apache.zookeeper.server.ZKDatabase.loadDataBase(ZKDatabase.java:240)
+	at org.apache.zookeeper.server.ZooKeeperServer.loadData(ZooKeeperServer.java:290)
+	at org.apache.zookeeper.server.ZooKeeperServer.startdata(ZooKeeperServer.java:450)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.startup(NIOServerCnxnFactory.java:764)
+	at org.apache.zookeeper.server.ServerCnxnFactory.startup(ServerCnxnFactory.java:98)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:144)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:106)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:64)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2020-03-10 13:18:43,319] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,320] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,321] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,321] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,322] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:18:43,322] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:18:43,322] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:18:43,322] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:18:43,323] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:18:43,333] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,333] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,333] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,333] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:18:43,333] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:18:43,335] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:18:43,340] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,341] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,342] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,342] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,342] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,343] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:18:43,348] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:18:43,350] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:18:43,354] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:18:43,364] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:18:43,373] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.io.IOException: No snapshot found, but there are log entries. Something is broken!
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.restore(FileTxnSnapLog.java:222)
+	at org.apache.zookeeper.server.ZKDatabase.loadDataBase(ZKDatabase.java:240)
+	at org.apache.zookeeper.server.ZooKeeperServer.loadData(ZooKeeperServer.java:290)
+	at org.apache.zookeeper.server.ZooKeeperServer.startdata(ZooKeeperServer.java:450)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.startup(NIOServerCnxnFactory.java:764)
+	at org.apache.zookeeper.server.ServerCnxnFactory.startup(ServerCnxnFactory.java:98)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:144)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:106)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:64)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2020-03-10 13:19:17,013] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,014] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,015] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,015] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,016] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:17,017] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:17,017] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:17,017] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:19:17,018] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:19:17,027] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,028] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,028] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,028] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:17,028] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:19:17,030] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:19:17,036] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,036] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,036] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,036] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,036] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,036] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,036] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,037] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,038] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,038] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,038] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:17,044] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:19:17,049] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:19:17,055] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:19:17,065] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:19:17,072] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.io.IOException: No snapshot found, but there are log entries. Something is broken!
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.restore(FileTxnSnapLog.java:222)
+	at org.apache.zookeeper.server.ZKDatabase.loadDataBase(ZKDatabase.java:240)
+	at org.apache.zookeeper.server.ZooKeeperServer.loadData(ZooKeeperServer.java:290)
+	at org.apache.zookeeper.server.ZooKeeperServer.startdata(ZooKeeperServer.java:450)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.startup(NIOServerCnxnFactory.java:764)
+	at org.apache.zookeeper.server.ServerCnxnFactory.startup(ServerCnxnFactory.java:98)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:144)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:106)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:64)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2020-03-10 13:19:27,774] INFO Reading configuration from: ./config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:27,776] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:27,776] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:27,777] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:27,777] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:27,777] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:27,778] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:19:27,778] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:19:27,788] INFO Reading configuration from: ./config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:27,789] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:27,789] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:27,789] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:19:27,791] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:19:27,797] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,797] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,798] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,799] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,799] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,799] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:27,804] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:19:27,806] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:19:27,814] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:19:27,826] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:19:27,833] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.io.IOException: No snapshot found, but there are log entries. Something is broken!
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.restore(FileTxnSnapLog.java:222)
+	at org.apache.zookeeper.server.ZKDatabase.loadDataBase(ZKDatabase.java:240)
+	at org.apache.zookeeper.server.ZooKeeperServer.loadData(ZooKeeperServer.java:290)
+	at org.apache.zookeeper.server.ZooKeeperServer.startdata(ZooKeeperServer.java:450)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.startup(NIOServerCnxnFactory.java:764)
+	at org.apache.zookeeper.server.ServerCnxnFactory.startup(ServerCnxnFactory.java:98)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:144)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:106)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:64)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2020-03-10 13:19:55,947] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,948] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,949] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,949] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,950] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:55,950] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:55,950] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:19:55,950] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:19:55,951] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:19:55,961] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,961] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,961] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,961] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:19:55,961] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:19:55,963] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:19:55,969] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,969] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,969] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,969] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,969] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,969] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,970] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,971] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,971] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,971] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:19:55,978] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:19:55,983] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:19:55,988] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:19:55,998] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:19:56,004] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.io.IOException: No snapshot found, but there are log entries. Something is broken!
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.restore(FileTxnSnapLog.java:222)
+	at org.apache.zookeeper.server.ZKDatabase.loadDataBase(ZKDatabase.java:240)
+	at org.apache.zookeeper.server.ZooKeeperServer.loadData(ZooKeeperServer.java:290)
+	at org.apache.zookeeper.server.ZooKeeperServer.startdata(ZooKeeperServer.java:450)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.startup(NIOServerCnxnFactory.java:764)
+	at org.apache.zookeeper.server.ServerCnxnFactory.startup(ServerCnxnFactory.java:98)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:144)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:106)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:64)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2020-03-10 13:21:43,968] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,969] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,970] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,970] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,971] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:21:43,971] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:21:43,971] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:21:43,972] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:21:43,973] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:21:43,985] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,985] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,985] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,985] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:21:43,985] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:21:43,988] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:21:43,994] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,995] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,996] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,997] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,997] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:43,997] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:21:44,008] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:21:44,011] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:21:44,014] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:21:44,026] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:21:44,035] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.io.IOException: No snapshot found, but there are log entries. Something is broken!
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.restore(FileTxnSnapLog.java:222)
+	at org.apache.zookeeper.server.ZKDatabase.loadDataBase(ZKDatabase.java:240)
+	at org.apache.zookeeper.server.ZooKeeperServer.loadData(ZooKeeperServer.java:290)
+	at org.apache.zookeeper.server.ZooKeeperServer.startdata(ZooKeeperServer.java:450)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.startup(NIOServerCnxnFactory.java:764)
+	at org.apache.zookeeper.server.ServerCnxnFactory.startup(ServerCnxnFactory.java:98)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:144)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:106)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:64)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2020-03-10 13:23:18,193] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,194] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,195] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,195] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,197] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:23:18,197] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:23:18,197] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2020-03-10 13:23:18,197] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2020-03-10 13:23:18,198] INFO Log4j found with jmx enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2020-03-10 13:23:18,209] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,209] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,209] INFO clientPortAddress is 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,209] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2020-03-10 13:23:18,209] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2020-03-10 13:23:18,211] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:23:18,218] INFO Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,218] INFO Server environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,218] INFO Server environment:java.version=11.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,218] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,218] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,218] INFO Server environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,218] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:os.version=5.3.0-40-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:user.name=salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:user.home=/home/salty (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,219] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,220] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,220] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,220] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2020-03-10 13:23:18,229] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2020-03-10 13:23:18,232] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:23:18,235] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2020-03-10 13:23:18,246] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2020-03-10 13:23:18,247] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:23:18,249] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2020-03-10 13:23:18,262] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2020-03-10 13:23:39,774] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2020-03-10 13:23:40,090] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2020-03-10 13:23:40,091] INFO starting (kafka.server.KafkaServer)
+[2020-03-10 13:23:40,091] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2020-03-10 13:23:40,105] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2020-03-10 13:23:40,108] INFO Client environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,108] INFO Client environment:host.name=salty-NUC8i7BEH (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,108] INFO Client environment:java.version=11.0.6 (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:java.vendor=Ubuntu (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:java.class.path=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/activation-1.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/argparse4j-0.7.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/audience-annotations-0.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-cli-1.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/commons-lang3-3.8.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-api-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-basic-auth-extension-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-file-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-json-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-mirror-client-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-runtime-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/connect-transforms-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/guava-20.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-api-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-locator-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/hk2-utils-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-core-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-databind-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.inject-2.5.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javassist-3.22.0-CR2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jaxb-api-2.3.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-client-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-common-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-hk2-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-media-jaxb-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jersey-server-2.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-client-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-continuation-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-http-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-io-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-security-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-server-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlet-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-servlets-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jetty-util-9.4.20.v20190813.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/jopt-simple-5.0.4.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka_2.12-2.4.0-sources.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-clients-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-log4j-appender-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-examples-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-scala_2.12-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-streams-test-utils-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/kafka-tools-2.4.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/log4j-1.2.17.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/lz4-java-1.6.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/maven-artifact-3.6.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/metrics-core-2.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-buffer-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-codec-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-handler-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-resolver-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-epoll-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/netty-transport-native-unix-common-4.1.42.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/paranamer-2.8.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/plexus-utils-3.2.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/reflections-0.9.11.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/rocksdbjni-5.18.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-collection-compat_2.12-2.1.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-java8-compat_2.12-0.9.0.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-library-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/scala-reflect-2.12.10.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-api-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/slf4j-log4j12-1.7.28.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/snappy-java-1.1.7.3.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/validation-api-2.0.1.Final.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zookeeper-jute-3.5.6.jar:/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0/bin/../libs/zstd-jni-1.4.3-1.jar (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:os.version=5.3.0-40-generic (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:user.name=salty (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,109] INFO Client environment:user.home=/home/salty (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,110] INFO Client environment:user.dir=/home/salty/Documents/kafka_stuff/kafka_2.12-2.4.0 (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,110] INFO Client environment:os.memory.free=982MB (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,110] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,110] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,111] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@15f47664 (org.apache.zookeeper.ZooKeeper)
+[2020-03-10 13:23:40,115] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2020-03-10 13:23:40,118] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2020-03-10 13:23:40,123] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2020-03-10 13:23:40,125] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2020-03-10 13:23:40,128] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-03-10 13:23:40,132] INFO Socket connection established, initiating session, client: /127.0.0.1:60894, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2020-03-10 13:23:40,141] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2020-03-10 13:23:40,150] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000000d24e0000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2020-03-10 13:23:40,153] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2020-03-10 13:23:40,328] INFO Cluster ID = O1dA6I4SRzKNqZ7j_XGSXw (kafka.server.KafkaServer)
+[2020-03-10 13:23:40,330] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2020-03-10 13:23:40,365] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.4-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.4-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2020-03-10 13:23:40,371] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.4-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.4-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2020-03-10 13:23:40,388] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2020-03-10 13:23:40,388] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2020-03-10 13:23:40,388] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2020-03-10 13:23:40,405] INFO Log directory /tmp/kafka-logs not found, creating it. (kafka.log.LogManager)
+[2020-03-10 13:23:40,408] INFO Loading logs. (kafka.log.LogManager)
+[2020-03-10 13:23:40,415] INFO Logs loading complete in 7 ms. (kafka.log.LogManager)
+[2020-03-10 13:23:40,428] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2020-03-10 13:23:40,429] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2020-03-10 13:23:40,676] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2020-03-10 13:23:40,696] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2020-03-10 13:23:40,697] INFO [SocketServer brokerId=0] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2020-03-10 13:23:40,712] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,713] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,715] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,716] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,726] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2020-03-10 13:23:40,741] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2020-03-10 13:23:40,754] INFO Stat of the created znode at /brokers/ids/0 is: 24,24,1583868220749,1583868220749,1,0,0,72057597566255104,200,0,24
+ (kafka.zk.KafkaZkClient)
+[2020-03-10 13:23:40,755] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(salty-NUC8i7BEH,9092,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 24 (kafka.zk.KafkaZkClient)
+[2020-03-10 13:23:40,797] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,799] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,799] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,804] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+[2020-03-10 13:23:40,821] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2020-03-10 13:23:40,822] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2020-03-10 13:23:40,825] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-03-10 13:23:40,831] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2020-03-10 13:23:40,851] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2020-03-10 13:23:40,852] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2020-03-10 13:23:40,852] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2020-03-10 13:23:40,871] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2020-03-10 13:23:40,900] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2020-03-10 13:23:40,913] INFO [SocketServer brokerId=0] Started data-plane processors for 1 acceptors (kafka.network.SocketServer)
+[2020-03-10 13:23:40,916] INFO Kafka version: 2.4.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2020-03-10 13:23:40,916] INFO Kafka commitId: 77a89fcf8d7fa018 (org.apache.kafka.common.utils.AppInfoParser)
+[2020-03-10 13:23:40,917] INFO Kafka startTimeMs: 1583868220913 (org.apache.kafka.common.utils.AppInfoParser)
+[2020-03-10 13:23:40,918] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2020-03-10 13:24:47,945] INFO Creating topic test with configuration {} and initial partition assignment Map(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2020-03-10 13:24:47,998] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(test-0) (kafka.server.ReplicaFetcherManager)
+[2020-03-10 13:24:48,044] INFO [Log partition=test-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2020-03-10 13:24:48,047] INFO [Log partition=test-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 25 ms (kafka.log.Log)
+[2020-03-10 13:24:48,048] INFO Created log for partition test-0 in /tmp/kafka-logs/test-0 with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.4-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2020-03-10 13:24:48,049] INFO [Partition test-0 broker=0] No checkpointed highwatermark is found for partition test-0 (kafka.cluster.Partition)
+[2020-03-10 13:24:48,050] INFO [Partition test-0 broker=0] Log loaded for partition test-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2020-03-10 13:24:48,050] INFO [Partition test-0 broker=0] test-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2020-03-10 13:33:40,822] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-03-10 13:43:40,822] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2020-03-10 13:53:40,822] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
